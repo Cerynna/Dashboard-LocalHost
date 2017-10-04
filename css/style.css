@@ -1,0 +1,51 @@
+header,
+main,
+footer {
+  padding-left: 240px;
+}
+
+body, main {
+  background-color: lightgrey;
+  overflow-x: hidden;
+}
+
+a {
+  color: dimgrey;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+#credits li,
+#credits li a {
+  color: white;
+}
+
+#credits li a {
+  font-weight: bold;
+}
+
+.footer-copyright .container,
+.footer-copyright .container a {
+  color: black;
+}
+
+.fab-tip {
+  position: fixed;
+  right: 85px;
+  padding: 0px 0.5rem;
+  text-align: right;
+  background-color: #323232;
+  border-radius: 2px;
+  color: #FFF;
+  width: auto;
+}
+
+iframe {
+  height: 93vh;
+}
