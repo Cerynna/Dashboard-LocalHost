@@ -36,7 +36,7 @@
             </div>
 
             <div class="row">
-                <a href="#!">
+                <a href="?page=documentation">
                     <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
                         <i class="fa fa-book fa-4x" aria-hidden="true"></i>
                         <span class="grey-text text-lighten-1"><h5>Documentations</h5></span>
