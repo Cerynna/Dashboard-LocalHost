@@ -80,12 +80,13 @@ function exploreDir($dir, &$fichier)
             <a href="../?page=adminArbo" class="breadcrumb" target="_parent"> Admin</a>
             <a href="../?page=arbo" class="breadcrumb" target="_parent"> Home</a>
             <?php
-            $exploreTab = $_GET['explore'];
+            if (isset($_GET['explore'])) {$exp = $_GET['explore'];} else {$exp = "";}
+            $exploreTab = $exp;
             $exploreTab = str_replace(MYDIR, "", $exploreTab);
             $exploreTab = str_replace("//", "", $exploreTab);
             $lien = MYDIR;
             $explores = explode("/", $exploreTab);
-
+            $i = "";
             foreach ($explores as $explore) {
                 if ($i != count($explores)) {
                     //echo $explore . " - ";
