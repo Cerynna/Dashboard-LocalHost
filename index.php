@@ -85,31 +85,6 @@
     <?php endif; ?>
 
 
-    <div class="fixed-action-btn click-to-toggle" style="bottom: 45px; right: 24px;">
-        <a class="btn-floating btn-large indigo waves-effect waves-light">
-            <i class="large material-icons">add</i>
-        </a>
-
-        <ul>
-            <li>
-                <a class="btn-floating red"><i class="material-icons">note_add</i></a>
-                <a href="" class="btn-floating fab-tip">Créer un fichier</a>
-            </li>
-
-            <li>
-                <a class="btn-floating yellow darken-1"><i class="material-icons">add_a_directory</i></a>
-                <a href="" class="btn-floating fab-tip">Créer un dossier</a>
-            </li>
-        </ul>
-    </div>
-
-
 </main>
+<?php include "pages/footer.php"; ?>
 
-<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js'></script>
-
-<script src="inc/js/index.js"></script>
-
-</body>
-</html>
