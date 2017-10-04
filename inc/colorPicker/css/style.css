@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+    background: #1C1C1C;
+
+}
+h1 {
+    font-size: 5em;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 0 0 #FFFFFF, 0 2px 0 #FFFFFF, 0 -2px 0 #FFFFFF, -2px 0 0 #FFFFFF, 2px 2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, -2px -2px 0 #FFFFFF;
+    text-align: center;
+
+}
+h2 {
+    font-size: 1.8em;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 0 0 #FFFFFF, 0 1px 0 #FFFFFF, 0 -2px 0 #FFFFFF, -1px 0 0 #FFFFFF, 1px 1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF;
+    text-align: center;
+    line-height:4em;
+
+}
+small {
+line-height: 0.1em;
+    font-size: 0.9em;
+}
+
+.round {
+    background: #333333;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+}
+iframe {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+
+input {
+    width:100%;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #fff;
+    background-color: #222;
+    border: 1px solid #444;
+    padding: 1px 2px;
+}
